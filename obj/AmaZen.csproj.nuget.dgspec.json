@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/derekjohnfoster/source/cs-folder/AmaZen/AmaZen.csproj": {}
+  },
+  "projects": {
+    "/Users/derekjohnfoster/source/cs-folder/AmaZen/AmaZen.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/derekjohnfoster/source/cs-folder/AmaZen/AmaZen.csproj",
+        "projectName": "AmaZen",
+        "projectPath": "/Users/derekjohnfoster/source/cs-folder/AmaZen/AmaZen.csproj",
+        "packagesPath": "/Users/derekjohnfoster/.nuget/packages/",
+        "outputPath": "/Users/derekjohnfoster/source/cs-folder/AmaZen/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/derekjohnfoster/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CodeWorks.Auth0Provider": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "mysqlconnector": {
+              "target": "Package",
+              "version": "[1.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
