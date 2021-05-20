@@ -84,6 +84,7 @@ namespace AmaZen.Repositories
             jc.id AS JobContractorId
             FROM jobcontractors jc
             JOIN jobs j ON j.id = jc.jobId
+            JOIN profiles p ON j.creatorId = p.id
             WHERE contractorId = @id;";
             return _db.Query<JobContractorViewModel>(sql, new { id });
         }
